@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-blue: #1F2937;
+    --light-blue: #3882F6;
+    --off-white: #F9FAF8;
+    --gray: #E5E7EB;
+    --font-primary: 'Figtree', sans-serif;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-black: 900;
+    --fs-hero-main: 48px;
+    --fs-hero-secondary: 18px;
+    --fs-logo: 24px;
+    --fs-info-header: 36px;
+    --fs-quote: 36px;
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color: var(--off-white);
+}
+
+.header, .hero, .footer {
+    background-color: var(--dark-blue);
+}
+
+.quote {
+    background-color: var(--gray);
+}
+
+.header nav a {
+    color: var(--gray);
+    text-decoration: none;
+    font-size: var(--hero-secondary);
+    font-weight: var(--fw-light);
+}
